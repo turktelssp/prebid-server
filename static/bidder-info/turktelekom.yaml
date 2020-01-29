@@ -1,0 +1,7 @@
+maintainer:
+  email: "turktelssp@gmail.com"
+capabilities:
+  site:
+    mediaTypes:
+      - banner
+      - video
