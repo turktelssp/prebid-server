@@ -713,7 +713,7 @@ func SetupViper(v *viper.Viper, filename string) {
 	v.SetDefault("adapters.triplelift_native.disabled", true)
 	v.SetDefault("adapters.triplelift_native.extra_info", "{\"publisher_whitelist\":[]}")
 	v.SetDefault("adapters.triplelift.endpoint", "https://tlx.3lift.com/s2s/auction?supplier_id=20")
-	v.SetDefault("adapters.turktelekom.endpoint", "http://ssp.programattik.com/s2s_bid")
+	v.SetDefault("adapters.turktelekom.endpoint", "http://dev.fargo.iponweb.net/sp_bid")
 	v.SetDefault("adapters.unruly.endpoint", "http://targeting.unrulymedia.com/openrtb/2.2")
 	v.SetDefault("adapters.verizonmedia.disabled", true)
 	v.SetDefault("adapters.visx.endpoint", "https://t.visx.net/s2s_bid?wrapperType=s2s_prebid_standard")
